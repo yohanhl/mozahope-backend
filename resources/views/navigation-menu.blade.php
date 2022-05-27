@@ -27,6 +27,9 @@
                     <x-jet-nav-link href="{{ route('dashboard.background.index') }}" :active="request()->routeIs('dashboard.background.index')">
                         {{ __('Image') }}
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('dashboard.ticket.index') }}" :active="request()->routeIs('dashboard.ticket.index')">
+                        {{ __('Tickets') }}
+                    </x-jet-nav-link>
                 </div>
             </div>
 
@@ -163,6 +166,9 @@
             </x-jet-responsive-nav-link>
             <x-jet-responsive-nav-link href="{{ route('dashboard.background.index') }}" :active="request()->routeIs('dashboard.background.index')">
                 {{ __('Image') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('dashboard.ticket.index') }}" :active="request()->routeIs('dashboard.ticket.index')">
+                {{ __('Tickets') }}
             </x-jet-responsive-nav-link>
         </div>
 
