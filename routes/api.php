@@ -20,6 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('homepage', 'App\Http\Controllers\API\HomepageController@all');
 Route::get('about', 'App\Http\Controllers\API\AboutController@all');
+Route::get('aboutr', 'App\Http\Controllers\API\AboutRController@all');
 Route::get('faq', 'App\Http\Controllers\API\FaqController@all');
 Route::get('background', 'App\Http\Controllers\API\BackgroundController@all');
 Route::post('ticket', 'App\Http\Controllers\API\TicketController@ticket');

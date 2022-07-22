@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AboutRController;
 use App\Http\Controllers\BackgroundController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
@@ -30,6 +31,7 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])-
     Route::middleware(['admin'])->group(function () {
        Route::resource('homepage', HomepageController::class);
        Route::resource('about', AboutController::class);
+       Route::resource('aboutr', AboutRController::class);
        Route::resource('faq', FaqController::class);
        Route::resource('background', BackgroundController::class)->only(['index', 'edit', 'update']);
        Route::resource('ticket', TicketController::class)->only(['index', 'show', 'destroy']);
