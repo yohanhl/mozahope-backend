@@ -26,7 +26,8 @@ class AboutRequest extends FormRequest
     {
         return [
             'title' => 'required|max:255',
-            'content' => 'required'
+            'content' => 'required',
+            'option' => 'required'
         ];
     }
 }

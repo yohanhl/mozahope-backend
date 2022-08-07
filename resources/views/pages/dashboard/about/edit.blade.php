@@ -43,6 +43,15 @@
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <select name="option" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option selected disabled>Choose a Position Content</option>
+                            <option value="left">Konten Kiri</option>
+                            <option value="right">Konten Kanan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
                     <div class="w-full px-3 text-right">
                         <button type="submit" class=" shadow-lg bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                             Update About

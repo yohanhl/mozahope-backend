@@ -18,6 +18,7 @@ class CreateAboutsTable extends Migration
 
             $table->string('title');
             $table->longText('content');
+            $table->string('option');
 
             $table->softDeletes();
             $table->timestamps();

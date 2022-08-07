@@ -16,6 +16,7 @@
                     { data : 'id', name: 'id', width: '5%'},
                     { data : 'title', name: 'title'},
                     { data : 'content', name: 'content'},
+                    { data : 'option', name: 'option'},
                     {
                         data: 'action',
                         name: 'action',
@@ -47,6 +48,7 @@
                                 <th>ID</th>
                                 <th>Title</th>
                                 <th>Content</th>
+                                <th>Position</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>

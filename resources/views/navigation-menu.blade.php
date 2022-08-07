@@ -21,9 +21,9 @@
                     <x-jet-nav-link href="{{ route('dashboard.about.index') }}" :active="request()->routeIs('dashboard.about.index')">
                         {{ __('About') }}
                     </x-jet-nav-link>
-                    <x-jet-nav-link href="{{ route('dashboard.aboutr.index') }}" :active="request()->routeIs('dashboard.aboutr.index')">
+                    <!-- <x-jet-nav-link href="{{ route('dashboard.aboutr.index') }}" :active="request()->routeIs('dashboard.aboutr.index')">
                         {{ __('About Kanan') }}
-                    </x-jet-nav-link>
+                    </x-jet-nav-link> -->
                     <x-jet-nav-link href="{{ route('dashboard.faq.index') }}" :active="request()->routeIs('dashboard.faq.index')">
                         {{ __('FAQ') }}
                     </x-jet-nav-link>

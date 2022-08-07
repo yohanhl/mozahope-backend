@@ -11,6 +11,6 @@ class About extends Model
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
-        'title', 'content'
+        'title', 'content', 'option'
     ];
 }
